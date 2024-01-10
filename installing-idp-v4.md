@@ -690,6 +690,7 @@ and add this piece of code to the tail before the ending \</beans\>:
      <logger name="org.ldaptive.auth.Authenticator" level="INFO" />
      ```
 Note: According to your requirements, change the log level
+
 12. Build the **attribute-resolver.xml** to define which attributes your IdP can manage. Here you can find the **attribute-resolver-LEARN.xml** provided by LEARN:
   Download the attribute resolver provided by LEARN:
       ```wget https://fr.ac.lk/templates/attribute-resolver-LEARN-v4.xml -O /opt/shibboleth-idp/conf/attribute-resolver-LEARN-v4.xml```
